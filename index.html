@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>오케이 투자클럽 – 해외선물 리딩 서비스</title>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700&display=swap');
+
+    body {
+        margin: 0;
+        font-family: 'Pretendard', sans-serif;
+        background: #eaf6ff;
+        color: #333;
+    }
+
+    /* ===== 상단 히어로 배너 ===== */
+    .hero {
+        background: linear-gradient(135deg, #bce3ff, #7fcaff);
+        padding: 60px 20px;
+        text-align: center;
+        color: #ffffff;
+        border-radius: 0 0 40px 40px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .hero h1 {
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .hero p {
+        font-size: 18px;
+        opacity: 0.9;
+        margin-top: 0;
+    }
+
+    .container {
+        max-width: 850px;
+        margin: 0 auto;
+        padding: 30px 20px;
+    }
+
+    .section {
+        background: #ffffff;
+        padding: 30px;
+        margin-bottom: 26px;
+        border-radius: 18px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .section h2 {
+        color: #3ba4e0;
+        margin-top: 0;
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    /* 아이콘 느낌 이모지 */
+    .section h2 span.icon {
+        font-size: 26px;
+    }
+
+    /* 신청 버튼 */
+    .btn {
+        display: block;
+        width: 100%;
+        background: linear-gradient(135deg, #82c8ff, #6bb8f5);
+        padding: 18px;
+        text-align: center;
+        color: #fff;
+        font-size: 20px;
+        border-radius: 12px;
+        text-decoration: none;
+        font-weight: 600;
+        box-shadow: 0 4px 10px rgba(130, 200, 255, 0.5);
+        transition: 0.25s;
+    }
+    .btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 14px rgba(130, 200, 255, 0.6);
+    }
+
+    /* 입력폼 */
+    input {
+        width: 100%;
+        padding: 14px;
+        margin: 10px 0 22px;
+        border-radius: 10px;
+        border: 1px solid #c8dff2;
+        font-size: 16px;
+    }
+
+    @media (max-width: 600px) {
+        .hero h1 { font-size: 28px; }
+        .section { padding: 22px; }
+    }
+</style>
+</head>
+
+<body>
+
+<!-- 히어로 배너 -->
+<div class="hero">
+    <h1>🌤 오케이 투자클럽</h1>
+    <p>해외선물 · AI 자동분석 · 리딩 서비스</p>
+</div>
+
+
+<div class="container">
+
+    <!-- 신규혜택 -->
+    <div class="section">
+        <h2><span class="icon">🎉</span> 신규 가입 혜택</h2>
+        <p>
+            • 신규 회원 대상 <b>증거금 40% 지원</b><br>
+            • 타사 증거금 그대로 이전해도 동일 혜택 제공  
+        </p>
+    </div>
+
+    <!-- 수수료 -->
+    <div class="section">
+        <h2><span class="icon">💰</span> 초저수수료 정책</h2>
+        <p>
+            • 업계 최저 수준 <b>수수료 3불</b><br>
+            • 꾸준히 이용 시 추가 인하 혜택 제공  
+        </p>
+    </div>
+
+    <!-- 거래 조건 -->
+    <div class="section">
+        <h2><span class="icon">📊</span> 거래 가능 수량</h2>
+        <p>
+            • 기본 <b>10계약</b> 즉시 거래 가능<br>
+            • 보유 증거금 증가에 따라 <b>추가 상향 조정 가능</b>
+        </p>
+    </div>
+
+    <!-- AI 리딩 -->
+    <div class="section">
+        <h2><span class="icon">🤖</span> AI 기반 리딩 서비스</h2>
+        <p>
+            • AI 자동 분석 기반 승률 <b>80% 이상</b><br>
+            • 하루 <b>2회 시그널 리딩 제공</b><br>
+            • 초보자용 <b>트레이딩 기초 참고서 무료 제공</b><br>
+            • 상시 <b>모의투자 가능</b>  
+        </p>
+    </div>
+
+    <!-- 신청폼 -->
+    <div class="section">
+        <h2><span class="icon">📩</span> 상담 신청</h2>
+
+        <label>이름</label>
+        <input type="text" placeholder="이름을 입력하세요">
+
+        <label>연락처</label>
+        <input type="text" placeholder="연락처를 입력하세요">
+
+        <a href="#" class="btn">신청하기</a>
+    </div>
+
+</div>
+
+</body>
+</html>
